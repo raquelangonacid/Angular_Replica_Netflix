@@ -1,0 +1,9 @@
+
+<section>
+    <h2>{{groupsInfo.title}}</h2>
+    <ul>
+        <li *ngFor="let image of groupsInfo.images">
+            <img src="{{image.src}}" alt="{{image.alt}}">
+        </li>
+    </ul>
+</section>

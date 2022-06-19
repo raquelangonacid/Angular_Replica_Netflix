@@ -1,0 +1,36 @@
+header{
+    width: 100%;   
+
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        div{
+            img{
+                height: 50px;
+                margin: 20px;
+            }
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            gap: 50px;
+            margin-right: 50px;
+            
+            li{
+                a{
+                    text-decoration: none;
+                    color:whitesmoke;
+
+                    &:hover{
+                        border-bottom: 2px solid whitesmoke;
+                    }
+                }
+            }
+        };
+    }
+}

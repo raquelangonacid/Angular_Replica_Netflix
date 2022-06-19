@@ -1,0 +1,33 @@
+section{
+    margin: 30px;
+    margin-bottom: 60px;
+    h2{
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        overflow-x: scroll;
+        
+        li{
+            margin-top: 20px;
+            list-style: none;
+
+            img{
+                width: 280px;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width: 425px){
+        
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+}
+}
